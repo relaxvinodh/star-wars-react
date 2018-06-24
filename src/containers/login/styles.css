@@ -1,0 +1,81 @@
+.wrapper {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.form-signin {
+	text-align: center;
+	padding: 30px 38px 66px;
+	margin: 0 auto;
+}
+
+.form-signin-heading {
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+}
+
+input[type="text"] {
+	margin-bottom: 10px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.error{
+  margin-bottom: 20px;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: #f3ef2db8;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-control {
+  min-width: 283px;
+  padding: 8px;
+  border: solid 2px #e8e400;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #e8e400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-control::placeholder {
+  color: #e8e400;
+  opacity: 0.5;
+}
+
+.form-control:focus {
+  -webkit-focus-ring-color: none;
+  outline: none;
+}
+
+@media (max-width: 445px) {
+  .form-control {
+    min-width: auto;
+    width: 80%;
+  }
+}

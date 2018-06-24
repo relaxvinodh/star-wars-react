@@ -1,0 +1,15 @@
+.search-container {
+  height: 290px;
+  text-align: center
+}
+.logoutBtn{
+  width: 20px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.logoutSection{
+  position: absolute;
+  top:10px;
+  right: 0px;
+  margin-right: 30px;
+}
